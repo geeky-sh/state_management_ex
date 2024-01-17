@@ -2,7 +2,7 @@ defmodule StatementManagement.RawUserTest do
   alias File.Stat
   use ExUnit.Case
 
-  test "Test Raw User" do
+  test "Test User using the Raw utils provided for state management" do
     StateManagement.RawUser.start()
 
     StateManagement.RawUser.add("aash", "aash.discover@gmail.com")
